@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+html, body{
+    background-color: #e8ebf4;
+    margin: 0;
+    padding: 0;    
+}
+
+/* Header */
+.banner-portada{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 130px;
+}
+
+.foto-perfil{
+    display: block;
+    margin: auto;
+    padding: 44px 0 0 0;
+    width: 16.23%;
+}
+
+.menuPrincipal{
+    color:#333;
+    font-family: 'Syne Mono', monospace;
+    letter-spacing: 2px;
+    list-style-type: none;
+    text-transform: uppercase;
+    white-space: 2px;
+}
+
+.menuPrincipal li{
+    padding: 5px 0;
+}
+
+.btn-nav{
+    text-decoration: none;
+}
+
+.btn-nav:hover{
+    text-decoration: underline;
+}
+
+.titular{
+    background-color: #5867a8;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    padding: 6px;
+    text-align: center;
+    text-transform: uppercase;
+} 
+
+/* Main */
+
+.titulo-personal{
+    background-color: #a380d8;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 6px 15px ;
+    text-transform: uppercase;
+}
+
+.titulo-estudios{
+    background-color: #734fa9;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 6px 15px ;
+    text-transform: uppercase;
+}
+
+.titulo-experiencia{
+    background-color: #604c7e;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    padding: 6px 15px ;
+    text-transform: uppercase;
+}
+
+ul li span{
+    font-family: 'Syne Mono', monospace;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+dl{
+    margin-left: 30px;
+}
+
+dl dt{
+    font-family: 'Syne Mono', monospace;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #5867a8;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;    
+}
+
+footer h4{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa-github{
+    color:#fff;
+    margin: 0 15px;
+}
+
+.fa-linkedin{
+    color:#fff;
+}
+
+/* Sobre mi */
+
+.banner-portada-mi{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.contenedor-info{
+    padding: 20px;
+}
+
+.info-sobremi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;    
+}
